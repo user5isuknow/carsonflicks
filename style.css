@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #3252a8;
+}
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/*this is the style for the body of the page */
+body {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+.clean-text {
+  background-color: transparent;
+}
+
+.center-text {
+  text-align: center;
+}
+/* this makes a box on the screen */
+#header {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100px;
+  border: solid #ffffff 10px;
+  background-color: #3252a8;
+}
+
+#dropdown-settings {
+  width: 20%;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  left: 80%;
+  top: 0;
+  background-color: #3252a8;
+  border: solid #ffffff 10px;
+  text-align: center;
+  color: #ffffff;
+}
